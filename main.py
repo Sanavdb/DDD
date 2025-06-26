@@ -9,28 +9,28 @@ if "responses" not in st.session_state:
 # --- Define dimensions and questions ---
 data = {
     "Data-Driven Culture": [
-        "Our organization embraces data in decision-making.",
-        "There is a clear commitment to data at all levels."
+        "There is a shared belief and valuesystem that encourages people to understand,use, and optimizate data.",
+        "There is a culture that is open to change and innovation."
     ],
     "Organizational Alignment": [
-        "Data strategy aligns with organizational goals.",
-        "Teams collaborate effectively using data."
+        "Data analytics or AI initiatives are in line with their department's overall vision and objectives.",
+        "These initiatives comply to the existing company-wide regulations, policies, and standards."
     ],
     "Data Capability": [
         "We have the tools to manage and process data effectively.",
         "Our data infrastructure scales with our needs."
     ],
     "Management's Digital Literacy and Leadership": [
-        "Leaders understand the potential of digital tools.",
-        "Management actively drives digital initiatives."
+        "The departmentmanager has anunderstandingof data anddigital literacy.",
+        "The department manager has the capability to lead the team in the complexities of shifting to a data-driven department."
     ],
     "Data Access": [
-        "Employees can access the data they need.",
-        "Data is well organized and easy to find."
+        "There is relevant, contextualized, high-quality and harmonized data available.",
+        "They also haveaccess to thisrelevant data."
     ],
     "Data Utilization": [
-        "Data is used to improve decisions and processes.",
-        "We track how data impacts business performance."
+        "Data-driven insights are used in business decision-making.",
+        "Data-driven insights are used in creating value such as improving services or developing new products."
     ]
 }
  
