@@ -17,8 +17,10 @@ data = {
         "These initiatives comply to the existing company-wide regulations, policies, and standards."
     ],
     "Data Capability": [
-        "We have the tools to manage and process data effectively.",
-        "Our data infrastructure scales with our needs."
+        "They have the appropriate tools for the transition towards a data-driven department (e.g. analytics tools).",
+        "They have the appropriate processes in place for the transition towards a data-driven department (e.g. information transfer process).",
+        "They have the appropriate people in place for the transition towards a data-driven department (e.g. data experts).",
+        "They have the appropriate skills for the transition towards a data-driven department (e.g. data analytics skills)."
     ],
     "Management's Digital Literacy and Leadership": [
         "The departmentmanager has anunderstandingof data anddigital literacy.",
