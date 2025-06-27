@@ -106,7 +106,7 @@ else:
 # --- Step 5: Improvement link ---
 st.markdown("""
 <hr>
-<a href="https://hgl9cryzkycpc3qbh43fj9.streamlit.app/" target="_blank">
+<a href="https://hgl9cryzkycpc3qbh43fj9.streamlit.app/"_blank">
 <p style="font-size:50px; text-align:center; color:#3366cc;">
         How to improve or enable the dimensions?
 </p>
