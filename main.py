@@ -106,7 +106,7 @@ else:
 # --- Step 5: Improvement link ---
 st.markdown("""
 <hr>
-<a href="https://hgl9cryzkycpc3qbh43fj9.streamlit.app/"_blank">
+<a href="https://brightcape.sharepoint.com/sites/TowardsDataDrivenDepartment?xsdata=MDV8MDJ8fGYyNDA0ZTU4YzU3NTQxZTk3Zjk2MDhkZGFjZDNkOWIyfGQ2MjhmMjgxNjQwYTQ4Y2U5MGVhYzk0ZTkwMTBmMTM4fDB8MHw2Mzg4NTY3NDgwNDY5MDkzMzR8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPalpoWTJZeU16STFMV1E1TnpNdE5HRXpZUzA1WlRabUxUZGxNVGs1WVRrMU9HWm1NbDltT0dVME1tVmtaQzA0WldGaUxUUm1ZekF0T0dFMU5TMHpaREV4WXpGbU9HWXlabUZBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGMxTURBM09EQXdOREEwTnc9PXwxOWM5MmFkMTllZGY0ZDdlN2Y5NjA4ZGRhY2QzZDliMnxlYTczN2IwZWY2NzI0NmNiYjBjNzJkOWZjNGQzYzNiZA%3D%3D&sdata=WVZiN2xjeWhLYmcxNUwreHNHTVVQSDB4NWxNZFVDd1I0SFV4UllzMXA2UT0%3D&ovuser=8d37411e-55a6-402d-b6b4-95be13019b71%2Cs.vandenbrink-shahsavari%40brightcape.nl&OR=Teams-HL&CT=1751020894170&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA2MDIwNjYxNiIsIkhhc0ZlZGVyYXRlZFVzZXIiOnRydWV9"_blank">
 <p style="font-size:50px; text-align:center; color:#3366cc;">
         How to improve or enable the dimensions?
 </p>
