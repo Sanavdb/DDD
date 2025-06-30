@@ -22,7 +22,7 @@ data = {
         "They have the appropriate people in place for the transition towards a data-driven department (e.g. data experts).",
         "They have the appropriate skills for the transition towards a data-driven department (e.g. data analytics skills)."
     ],
-    "Management's Digital Literacy and Leadership": [
+    "Management's Digital Literacy" \n "and Leadership": [
         "The departmentmanager has anunderstandingof data anddigital literacy.",
         "The department manager has the capability to lead the team in the complexities of shifting to a data-driven department."
     ],
