@@ -26,7 +26,7 @@ data = {
         "The departmentmanager has anunderstandingof data anddigital literacy.",
         "The department manager has the capability to lead the team in the complexities of shifting to a data-driven department."
     ],
-    "Data Access": [
+    "Access to relevant high-quality data": [
         "There is relevant, contextualized, high-quality and harmonized data available.",
         "They also haveaccess to thisrelevant data."
     ],
