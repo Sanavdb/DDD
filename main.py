@@ -104,8 +104,18 @@ fig.update_layout(
     polar=dict(radialaxis=dict(visible=True, range=[1, 5])),
     showlegend=False
 )
-st.plotly_chart(fig)
- 
+st.plotly_chart(
+    fig,
+    config={
+        "displayModeBar": True,      # show toolbar
+        "scrollZoom": False,         # disable scroll-to-zoom
+        "displaylogo": False,        # remove plotly logo
+        "modeBarButtonsToRemove": [
+            "zoom2d", "pan2d", "select2d", "lasso2d",
+            "zoomIn2d", "zoomOut2d", "autoScale2d", "resetScale2d"
+        ]
+    }
+) 
 # --- Step 4: Priorities ---
 st.header("Step 3: Identify High Priority Areas")
 st.markdown("_Dimensions scoring below the threshold (3.0) are highlighted here. These are potential focus areas for improvement to enhance your client's data-drivenness._")
