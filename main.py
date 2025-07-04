@@ -43,12 +43,26 @@ likert_options = {
     "Agree": 4,
     "Strongly Agree": 5
 }
- 
+# --- Intro Text ---
+st.markdown("""
+# 🔍 Welcome to the Data-Drivenness Assessment Tool
+
+This interactive tool helps you evaluate how data-driven your department is across six key dimensions:
+culture, alignment, capabilities, leadership, access, and utilization.
+
+You’ll be guided through:
+1. A short diagnostic questionnaire  
+2. A radar chart visualizing your results  
+3. A summary of which dimensions may need attention  
+4. A tip on how to improve  
+
+""")
 # --- App Title ---
 st.title("📊 Data-drivenness Assessment")
  
 # --- Step 1: Respond to Questions ---
 st.header("Step 1: Respond to Diagnostic Questions")
+st.markdown("_Please rate the extent to which you agree with the following statements based on your experience with your client. Your responses will help identify strengths and improvement areas across six key dimensions._")
  
 for dimension, questions in data.items():
     st.subheader(dimension)
@@ -73,6 +87,8 @@ for dimension, questions in data.items():
  
 # --- Step 3: Radar Chart ---
 st.header("Step 2: Review Overall Diagnostic Results")
+st.markdown("_The radar chart below visualizes your client's current state across the six dimensions. Each axis represents one dimension, and the closer to the edge, the stronger the dimension._")
+
  
 categories = list(dimension_scores.keys())
 values = list(dimension_scores.values())
@@ -92,6 +108,8 @@ st.plotly_chart(fig)
  
 # --- Step 4: Priorities ---
 st.header("Step 3: Identify High Priority Areas")
+st.markdown("_Dimensions scoring below the threshold (3.0) are highlighted here. These are potential focus areas for improvement to enhance your client's data-drivenness._")
+
  
 priority_threshold = 3.0
 priorities = [d for d, score in dimension_scores.items() if score < priority_threshold]
@@ -104,6 +122,8 @@ else:
     st.success("✅ All dimensions are above the threshold.")
  
 # --- Step 5: Improvement link ---
+st.markdown("_Use the link below to explore ways to improve or enable the dimensions that need attention (or even those that are already strong, but still can improve)._")
+
 st.markdown("""
 <hr>
 <a href="https://brightcape.sharepoint.com/sites/TowardsDataDrivenDepartment?xsdata=MDV8MDJ8fGYyNDA0ZTU4YzU3NTQxZTk3Zjk2MDhkZGFjZDNkOWIyfGQ2MjhmMjgxNjQwYTQ4Y2U5MGVhYzk0ZTkwMTBmMTM4fDB8MHw2Mzg4NTY3NDgwNDY5MDkzMzR8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPalpoWTJZeU16STFMV1E1TnpNdE5HRXpZUzA1WlRabUxUZGxNVGs1WVRrMU9HWm1NbDltT0dVME1tVmtaQzA0WldGaUxUUm1ZekF0T0dFMU5TMHpaREV4WXpGbU9HWXlabUZBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGMxTURBM09EQXdOREEwTnc9PXwxOWM5MmFkMTllZGY0ZDdlN2Y5NjA4ZGRhY2QzZDliMnxlYTczN2IwZWY2NzI0NmNiYjBjNzJkOWZjNGQzYzNiZA%3D%3D&sdata=WVZiN2xjeWhLYmcxNUwreHNHTVVQSDB4NWxNZFVDd1I0SFV4UllzMXA2UT0%3D&ovuser=8d37411e-55a6-402d-b6b4-95be13019b71%2Cs.vandenbrink-shahsavari%40brightcape.nl&OR=Teams-HL&CT=1751020894170&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA2MDIwNjYxNiIsIkhhc0ZlZGVyYXRlZFVzZXIiOnRydWV9"_blank">
