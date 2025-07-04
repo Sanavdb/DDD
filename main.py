@@ -45,7 +45,7 @@ likert_options = {
 }
 # --- Intro Text ---
 st.markdown("""
-# 🔍 Welcome to the Data-Drivenness Assessment Tool
+# Welcome to the Data-Drivenness Assessment Tool
 
 This interactive tool helps you evaluate how data-driven your department is across six key dimensions:
 culture, alignment, capabilities, leadership, access, and utilization.
