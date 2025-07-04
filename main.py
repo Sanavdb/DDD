@@ -122,7 +122,7 @@ else:
     st.success("✅ All dimensions are above the threshold.")
  
 # --- Step 5: Improvement link ---
-st.markdown("_Use the link below to explore ways to improve or enable the dimensions that need attention (or even those that are already strong, but still can improve)._")
+st.header("Step 4: Click on the link below")
 
 st.markdown("""
 <hr>
